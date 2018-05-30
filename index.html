@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/t4t5/sweetalert/master/dist/sweetalert.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div id="header">
+      <img src="images/Logo.png" class="logo">
+    </div>
+    <div id="rightButtons">
+      <button type="button" class="btn btn-primary" id="login-button">Login</button>
+      <button type="button" class="btn btn-primary" id="about-button" data-toggle="modal" data-target="#about-modal">About</button>
+    </div>
+    <form>
+      <div class="input-group">
+       <input type="text" placeholder="Search for a hashtag!" id="hashtag" class="form-control">
+       <div class="input-group-btn">
+           <button class="btn btn-primary" id="search-button">
+           <span class="glyphicon glyphicon-search"></span>
+           </button>
+       </div>
+      </div>
+    </form>
+
+    <div id="content">
+    </div>
+    <div id="about-modal" class="modal fade">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <h4 id="modal-title">About</h4>
+          </div>
+          <div class="modal-body">
+            <p>Searchstagram created by Nissan Azizov</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://cdn.rawgit.com/t4t5/sweetalert/master/dist/sweetalert.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

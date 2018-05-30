@@ -1,0 +1,83 @@
+body {
+  background-image: url(images/Background.jpg);
+}
+
+.search-container {
+  display: none;
+}
+
+.auth-container {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.image {
+  padding: 10px;
+}
+
+#content {
+  text-align: center;
+  margin: 2%;
+}
+
+.all-pics {
+  margin-top: 40px;
+}
+
+.searching {
+  position: absolute;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+  display: none;
+}
+
+.searching h1 {
+  color: white;
+  text-align: center;
+  margin-top: 20%;
+}
+
+.fa-times {
+  font-size: 18px;
+  vertical-align: middle;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.btn-tag {
+  cursor: default;
+  border: none;
+}
+
+.input-group-btn {
+  color: #FF0000;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+#rightButtons {
+  float: right;
+}
+
+#modal-title {
+  text-align: center;
+}
+
+#login-button {
+  margin-left: 1%;
+}
+
+#about-button {
+  margin-left: -1%;
+}
